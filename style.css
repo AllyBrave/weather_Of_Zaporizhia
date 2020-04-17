@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.ZP {
+	font-size: 40px;
+	font-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left, #a83279, #d38312, #a83279);
+	text-align: center;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+}
+
+.ZP:hover {
+	background-position: right;
+}
+
+
